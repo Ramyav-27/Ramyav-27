@@ -4,7 +4,7 @@ Creating a new SQLite database – Learn how to create a new SQLite database fro
 
 Creating a new table (Movies) using JDBC / Other Languages – before working with data, you need to create a table called Movies. Learn how to create a new table in an SQLite database from a Java (any language) program.
 
-Inserting data into Movies table from a Java (any language) program
+Inserting data into Movies table from a Java (any language) program.
 
 Querying data from Movies table with or without parameters – after having the movies data in the table, 
 you need to query the movie details (name, actor, actress, director, year of release) using a SELECT statement. 
