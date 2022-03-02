@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class SelectRecords {  
    
     private Connection connect() {  
-        // SQLite connection string  
+       
         String url = "jdbc:sqlite:C://sqlite/SSSIT.db";  
         Connection conn = null;  
         try {  
@@ -27,7 +27,6 @@ public class SelectRecords {
             Statement stmt  = conn.createStatement();  
             ResultSet rs    = stmt.executeQuery(sql);  
               
-            // loop through the result set  
             while (rs.next()) {  
                 System.out.println(rs.getInt("id") +  "\t" +   
                                    rs.getString("name") + "\t" +  
